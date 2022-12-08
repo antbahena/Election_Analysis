@@ -28,4 +28,37 @@ The analysis of the election show that:
 
 ## Challenge Overview
 
+##Overview of Election Audit
+
+This python code is meant to audit and check the election. We are checking for the candidate votes and the county votes.
+
 ## Challenge Summary
+
+## How many votes were cast in this congressional election?
+
+- Total votes cast = There were 369711 votes cast
+
+## Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
+
+Jefferson: 10.5% (38,855)
+Denver: 82.8% (306,055)
+Arapahoe: 6.7% (24,801)
+
+## Which county had the largest number of votes?
+
+Largest county to vote is Denver
+
+## Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
+
+Charles Casper Stockham: 23.0% (85,213)
+Diana DeGette: 73.8% (272,892)
+Raymon Anthony Doane: 3.1% (11,606)
+
+## Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
+- The winnder of the election was:
+--Winner: Diana DeGette
+--Winning Vote Count: 272,892
+--Winning Percentage: 73.8%
+
+## Election-Audit Summary
+Through the power of python we are able to check and summarize voting data by candidate and county in order to provide efficient and accurate data. Through this data we are able to see the exact votes given to each candiate and from which county.
