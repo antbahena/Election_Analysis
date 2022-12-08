@@ -31,7 +31,7 @@ winning_percentage = 0
 
 winning_county = ""
 winning_county_count = 0
-winning_county_percentrage = 0
+winning_county_percentage = 0
 
 county_name = ""
 county_floater_count = 0
@@ -116,7 +116,7 @@ with open(file_to_save, "w") as txt_file:
          # 6e: Save the county votes to a text file.
         txt_file.write(county_results)
          # 6f: Write an if statement to determine the winning county and get its vote count.
-        if (county_voter_count > winning_count) and (county_percentage > winning_percentage):
+        if (county_voter_count > winning_count) and (county_percentage > winning_county_percentage):
             winning_county_count = county_voter_count
             winning_county = county_name
             winning_county_percentage = county_percentage
